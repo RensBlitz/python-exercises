@@ -1,6 +1,57 @@
 # Projectbeschrijving
 Je gaat een eenvoudige CRUD-backend voor een Netflix-achtige applicatie bouwen in Python met Flask. De service draait volledig in-memory (zonder echte database), alle data is "hard coded" tijdens runtime en het wegschrijven van data is niet mogelijk. De backend biedt basisfunctionaliteit om films te beheren en gebruikersratings op te slaan.
 
+## 0. Project opstarten in PyCharm
+
+### Stap 1: Nieuw project aanmaken
+1. Open **PyCharm**
+2. Klik op **"New Project"**
+3. Selecteer **"Pure Python"** als project type
+4. Geef je project een naam (bijvoorbeeld: `netflix-flask-api`)
+5. Kies de locatie waar je het project wilt opslaan
+6. Bij **"Python Interpreter"**:
+   - Selecteer **"New environment using Virtualenv"**
+   - Zorg ervoor dat **Python 3.9+** is geselecteerd (bij voorkeur Python 3.11 of hoger)
+7. Klik op **"Create"**
+
+### Stap 2: Dependencies installeren
+1. Open de **Terminal** in PyCharm (onderaan het scherm)
+2. Zorg ervoor dat je virtual environment actief is (je ziet `(venv)` of `(netflix-flask-api)` voor je prompt)
+3. Installeer Flask:
+   ```bash
+   pip install Flask
+   ```
+4. Maak een `requirements.txt` bestand aan in de root van je project:
+   ```
+   Flask==3.0.0
+   ```
+
+### Stap 3: Project structuur aanmaken
+Maak de volgende mappenstructuur aan in je project:
+```
+netflix-flask-api/
+├── app.py
+├── requirements.txt
+├── dtos/
+│   └── __init__.py
+├── services/
+│   └── __init__.py
+└── blueprints/
+    └── __init__.py
+```
+
+**Tip:** Rechtermuisklik in de Project Explorer → New → Python Package om mappen met `__init__.py` aan te maken.
+
+### Stap 4: Run configuratie instellen
+1. Ga naar **Run** → **Edit Configurations**
+2. Klik op **"+"** → **Python**
+3. Geef een naam (bijvoorbeeld: "Flask Netflix API")
+4. Bij **Script path**: selecteer je `app.py` bestand
+5. Bij **Working directory**: zorg dat dit je project root is
+6. Klik **OK**
+
+Nu ben je klaar om te beginnen met de implementatie!
+
 ## 1. API-specificatie
 
 ### GET /films
