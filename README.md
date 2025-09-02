@@ -312,36 +312,3 @@ Make sure you're running pytest from the project root directory and that your vi
 2. **Long Path Names:** Windows has path length limitations. Keep your project in a shorter directory path if you encounter issues.
 
 3. **Administrator Privileges:** You generally don't need administrator privileges, but if pip installations fail, ensure you're using a virtual environment rather than trying to install system-wide.
-
-## 📖 Learning Path
-
-### Beginner (Start here!)
-1. `pocket_money_tracker` - Basic arithmetic
-2. `hello_hero` - String formatting
-3. `even_odd_game` - Conditionals
-4. `shopping_basket` - Lists
-
-### Intermediate
-1. `fizz_buzz_lite` - Loops and conditionals
-2. `student_records` - Dictionaries
-3. `matrix_transpose` - 2D lists
-4. `word_counter` - String processing
-
-### Advanced
-1. `file_statistics` - File I/O
-2. `gradebook` - Classes and objects
-3. `leaderboard_manager` - Complex list operations
-4. `inventory_tracker` - Dictionary manipulation
-
-## 🎯 Goals
-
-By completing these exercises, you will gain proficiency in:
-- Python syntax and basic operations
-- Control flow (if/else, loops)
-- Data structures (lists, dictionaries, tuples)
-- Functions and methods
-- Basic object-oriented programming
-- File I/O operations
-- Problem-solving and algorithmic thinking
-
-Happy coding! 🐍✨ # python-exercises
