@@ -1,8 +1,8 @@
 # tests/test_shopping_basket.py
 
-import pytest
-from exercises.shopping_basket import calculate_total
+from exercises.shopping_basket import join
 
-def test_basic():
-    prices = [2.50, 3.00, 4.75]
-    assert pytest.approx(calculate_total(prices), rel=1e-3) == 10.25 
+
+def test_join_basic():
+    items = ["milk", "eggs", "bread"]
+    assert join(items) == "milk, eggs, bread" 
