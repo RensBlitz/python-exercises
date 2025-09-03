@@ -32,24 +32,22 @@ This repository contains 40 Python programming exercises designed to help studen
 - **tiny_encryption**: Character manipulation
 
 ### 4️⃣ Collections & Classes/Objects (17 exercises)
-- **shopping_basket**: List sum
-- **classroom_scores**: List average
-- **mini_rpg**: List processing
-- **tip_calculator**: Rounding operations
-- **student_records**: Dictionary filtering
-- **library**: List membership
-- **order_processor**: Conditional processing
-- **gradebook**: Class usage and maximum finding
-- **matrix_transpose**: 2D list manipulation
-- **word_counter**: Dictionary construction
-- **file_statistics**: File I/O operations
-- **inventory_tracker**: Dictionary updates
-- **game_leaderboard**: Sorting operations
-- **contact_book**: Tuple to dictionary conversion
-- **todo_list**: List filtering
-- **student_grades**: Dictionary value processing
-- **parking_lot**: Capacity management
-- **leaderboard_manager**: List insertion/maintenance
+- **shopping_basket**: Array sum
+- **mini_rpg**: Class implementation and object interaction
+- **bank_account**: Class with state management
+- **todo_item**: Object creation and manipulation
+- **pet**: Class with properties and methods
+- **course**: Class relationships
+- **leaderboard**: Array processing
+- **library_catalogue**: Collection operations
+- **simple_car**: Object state management
+- **vowel_counter**: String processing
+- **temperature_spread**: Multiple return values
+- **fantasy_potion_mix**: Array manipulation
+- **amusement_park_ticket**: Input validation
+- **bus_seats**: Conditional processing
+- **cinema_row_rearrange**: Array manipulation
+
 
 ## 🚀 Getting Started
 
